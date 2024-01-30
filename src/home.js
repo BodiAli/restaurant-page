@@ -3,12 +3,10 @@ export default function homeContent() {
   const h1 = document.createElement("h1");
   h1.textContent = "Welcome to our official PuyTato site!";
   const h2 = document.createElement("h2");
-  h2.textContent = "Where You will eat the best potatoes in the world of potatoes!!!";
+  h2.textContent = "Where You will find and order the best potatoes in the world of potatoes!!!";
   const divParagraph1 = document.createElement("div");
   divParagraph1.classList.add("paragraph");
   const paragraph1 = document.createElement("p");
-  paragraph1.textContent =
-    "PuyTato was invented in 1988, it got it's popularity from the taste of it's unique and delicious potatoes.";
   const divParagraph2 = divParagraph1.cloneNode(false);
   const h3 = document.createElement("h3");
   h3.textContent = "Working Hours";
