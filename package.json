@@ -1,0 +1,28 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "restaurant-page concept using only JS to generate the content",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --watch --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BodiAli/restaurant-page.git"
+  },
+  "author": "Bodi Ali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BodiAli/restaurant-page/issues"
+  },
+  "homepage": "https://github.com/BodiAli/restaurant-page#readme",
+  "devDependencies": {
+    "css-loader": "^6.9.1",
+    "html-webpack-plugin": "^5.6.0",
+    "style-loader": "^3.3.4",
+    "webpack": "^5.90.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
