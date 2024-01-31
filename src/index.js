@@ -9,12 +9,12 @@ import icon from "./images/potato.png"
 const linkTag = document.createElement("link")
 linkTag.rel = "icon"
 linkTag.href = icon
+const head = document.querySelector("head")
 head.appendChild(linkTag)
 
 const button1 = document.querySelector("button:nth-of-type(1)")
 const button2 = document.querySelector("button:nth-of-type(2)")
 const button3 = document.querySelector("button:nth-of-type(3)")
-const head = document.querySelector("head")
 
 document.addEventListener("DOMContentLoaded", homeContent)
 button1.addEventListener("click", generateHome)
