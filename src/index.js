@@ -4,10 +4,10 @@ import aboutContent from "./about.js";
 import "./reset.css"
 import "./style.css"
 
-document.addEventListener("DOMContentLoaded", homeContent)
 const button1 = document.querySelector("button:nth-of-type(1)")
 const button2 = document.querySelector("button:nth-of-type(2)")
 const button3 = document.querySelector("button:nth-of-type(3)")
+document.addEventListener("DOMContentLoaded", homeContent)
 button1.addEventListener("click", generateHome)
 button2.addEventListener("click",generateMenu)
 button3.addEventListener("click", generateAbout)
